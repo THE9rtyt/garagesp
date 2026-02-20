@@ -2075,12 +2075,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:SANYOU_SRD_Form_C"
+		(symbol "Relay:SANYOU_SRD_Form_A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 11.43 3.81 0)
+				(at 8.89 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2088,8 +2088,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SANYOU_SRD_Form_C"
-				(at 11.43 1.27 0)
+			(property "Value" "SANYOU_SRD_Form_A"
+				(at 8.89 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2097,8 +2097,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-				(at 11.43 -1.27 0)
+			(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
+				(at 8.89 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2116,7 +2116,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2125,7 +2125,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Pole Relay SPDT"
+			(property "ki_keywords" "Single Pole Relay SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2134,7 +2134,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
+			(property "ki_fp_filters" "Relay*SPST*SANYOU*SRD*Series*Form*A*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2143,10 +2143,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SANYOU_SRD_Form_C_0_0"
+			(symbol "SANYOU_SRD_Form_A_0_0"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+						(xy 5.08 5.08) (xy 5.08 2.54) (xy 4.445 3.175) (xy 5.08 3.81)
 					)
 					(stroke
 						(width 0)
@@ -2157,10 +2157,10 @@
 					)
 				)
 			)
-			(symbol "SANYOU_SRD_Form_C_0_1"
+			(symbol "SANYOU_SRD_Form_A_0_1"
 				(rectangle
 					(start -10.16 5.08)
-					(end 10.16 -5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2301,19 +2301,7 @@
 					)
 				)
 			)
-			(symbol "SANYOU_SRD_Form_C_1_1"
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "SANYOU_SRD_Form_A_1_1"
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -2351,7 +2339,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 7.62 270)
+					(at 5.08 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -2360,7 +2348,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2379,24 +2367,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2919,6 +2889,12 @@
 		(uuid "36e9c48a-dea4-4110-a2c7-bca236df903a")
 	)
 	(junction
+		(at 229.87 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3967aff5-2a18-4bef-81ce-18ec89a45b0e")
+	)
+	(junction
 		(at 135.89 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2949,10 +2925,10 @@
 		(uuid "980c2cf2-6332-4ffb-9185-c64fb1974464")
 	)
 	(junction
-		(at 203.2 140.97)
+		(at 214.63 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a51b0eeb-d1f6-4628-9ebf-e5a4eaacbf68")
+		(uuid "b37ec0f4-ebed-4350-a302-cdd030df2965")
 	)
 	(junction
 		(at 163.83 91.44)
@@ -3042,16 +3018,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 149.86) (xy 203.2 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "089936e9-f675-4de6-89ae-365b2a499165")
-	)
-	(wire
-		(pts
 			(xy 163.83 109.22) (xy 165.1 109.22)
 		)
 		(stroke
@@ -3112,6 +3078,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 128.27) (xy 214.63 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261c957d-c0c4-43b4-bbde-1576f030b670")
+	)
+	(wire
+		(pts
 			(xy 232.41 140.97) (xy 229.87 140.97)
 		)
 		(stroke
@@ -3129,6 +3105,16 @@
 			(type default)
 		)
 		(uuid "2f3dee0e-a1ae-4a0e-8f7b-efc3627d5ee9")
+	)
+	(wire
+		(pts
+			(xy 214.63 147.32) (xy 233.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f3fde2-021e-4926-bbca-cebf0e429863")
 	)
 	(wire
 		(pts
@@ -3302,6 +3288,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 128.27) (xy 214.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b34a514-03da-4b6d-ac07-459f87dc7cfc")
+	)
+	(wire
+		(pts
 			(xy 121.92 66.04) (xy 121.92 62.23)
 		)
 		(stroke
@@ -3392,6 +3388,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 147.32) (xy 214.63 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b98fcf-55cf-47a5-9f65-e6467adfcc75")
+	)
+	(wire
+		(pts
 			(xy 104.14 152.4) (xy 104.14 153.67)
 		)
 		(stroke
@@ -3402,6 +3408,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 128.27) (xy 229.87 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b12ec72-6584-4357-8541-3aa849d8e135")
+	)
+	(wire
+		(pts
 			(xy 100.33 143.51) (xy 104.14 143.51)
 		)
 		(stroke
@@ -3409,6 +3425,26 @@
 			(type default)
 		)
 		(uuid "8c29ab3a-0154-4f44-ae46-2e8a722c6d22")
+	)
+	(wire
+		(pts
+			(xy 234.95 151.13) (xy 233.68 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5585b9-cef6-4692-bd14-023968ebcf32")
+	)
+	(wire
+		(pts
+			(xy 226.06 128.27) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e988fc0-6306-4489-808a-b4b8566b26a7")
 	)
 	(wire
 		(pts
@@ -3482,6 +3518,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 151.13) (xy 229.87 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e4e011-ff78-4e02-aefd-dacca8ef2241")
+	)
+	(wire
+		(pts
 			(xy 124.46 96.52) (xy 177.8 96.52)
 		)
 		(stroke
@@ -3499,16 +3545,6 @@
 			(type default)
 		)
 		(uuid "acbaa9c5-0df2-46d5-b506-58fff3a7f7fe")
-	)
-	(wire
-		(pts
-			(xy 214.63 151.13) (xy 234.95 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b269e0e4-3a16-4df5-a10f-5d5bcc60cf06")
 	)
 	(wire
 		(pts
@@ -3539,6 +3575,16 @@
 			(type default)
 		)
 		(uuid "c321a444-0e04-4700-a870-20c70cc1d89b")
+	)
+	(wire
+		(pts
+			(xy 233.68 151.13) (xy 233.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67f497d-3ef0-4204-a841-34a945e8e37b")
 	)
 	(wire
 		(pts
@@ -3961,7 +4007,7 @@
 		(uuid "f5a08c41-5ad5-4b54-a7bb-e4512e165f1c")
 	)
 	(label "CTL1"
-		(at 229.87 151.13 0)
+		(at 229.87 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4045,6 +4091,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C192562"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f0676cb-50ed-4ff7-b9b5-8d025e0e19fb")
 		)
@@ -4079,7 +4134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100 nF"
 			(at 148.59 149.8599 0)
 			(effects
 				(font
@@ -4107,6 +4162,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C476766"
 			(at 144.78 148.59 0)
 			(effects
 				(font
@@ -4185,6 +4249,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1713"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2892f713-7a2d-4998-9d3d-2f257750dd79")
 		)
@@ -4195,72 +4268,6 @@
 			(project "garagesp"
 				(path "/3fa1ee2a-4fd2-4656-a08a-79cff3e38c75"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "230e92a2-a4ae-487c-b4b0-e5003469de99")
-		(property "Reference" "#PWR06"
-			(at 203.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58fbfa44-d962-43be-bf98-c78fab2ff460")
-		)
-		(instances
-			(project "garagesp"
-				(path "/3fa1ee2a-4fd2-4656-a08a-79cff3e38c75"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4312,6 +4319,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27834"
+			(at 128.27 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c4a9a7a-3a9e-454e-bbab-0397d75447a1")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 189.23 127 90)
 			(effects
 				(font
@@ -4452,6 +4468,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C17517 "
+			(at 189.23 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76cfed0f-cf25-411c-8887-37c977eff54c")
 		)
@@ -4461,7 +4486,7 @@
 		(instances
 			(project "garagesp"
 				(path "/3fa1ee2a-4fd2-4656-a08a-79cff3e38c75"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4543,6 +4568,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47089404"
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "581d0d5e-479c-4d53-b992-6b7cb0f3a780")
 		)
@@ -4608,6 +4642,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
 			(at 133.35 148.59 0)
 			(effects
 				(font
@@ -4752,6 +4795,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C192562"
+			(at 240.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "553dfab1-93ba-4dc3-898b-ed4ad74355df")
 		)
@@ -4814,6 +4866,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52016392"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -4896,6 +4957,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2894897"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A4"
 			(uuid "6bd534b5-160f-487a-8f5e-a9c7084e8928")
 		)
@@ -4952,7 +5022,7 @@
 	)
 	(symbol
 		(lib_id "Diode:B120-E3")
-		(at 203.2 144.78 90)
+		(at 222.25 128.27 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4961,7 +5031,7 @@
 		(dnp no)
 		(uuid "95bd5cf2-d31c-4996-9534-c7234f2b47a7")
 		(property "Reference" "D1"
-			(at 196.85 144.4625 0)
+			(at 221.9325 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +5039,7 @@
 			)
 		)
 		(property "Value" "B120-E3"
-			(at 199.39 144.4625 0)
+			(at 221.9325 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5047,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 207.645 144.78 0)
+			(at 222.25 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +5056,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
-			(at 203.2 144.78 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +5065,16 @@
 			)
 		)
 		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
-			(at 203.2 144.78 0)
+			(at 222.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2902910"
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,6 +5152,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2934560"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "e9563746-d636-4949-8de5-6194516664c5")
 		)
@@ -5140,6 +5228,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_A")
+		(at 222.25 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a367098d-9aae-4e8f-a0ac-83974d95efd0")
+		(property "Reference" "K1"
+			(at 222.25 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SANYOU_SRD_Form_A"
+			(at 222.25 158.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 222.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact"
+			(at 222.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C140615"
+			(at 222.25 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65da54ad-a785-46c8-a3e5-e4bb02e70cd2")
+		)
+		(pin "5"
+			(uuid "30cb0c8c-fc0c-449e-a77d-12422cb45b7f")
+		)
+		(pin "3"
+			(uuid "6e9fb91c-0fda-4d6c-a11f-c1cfa0ed02de")
+		)
+		(pin "1"
+			(uuid "269319c9-b8fb-4322-bcd2-1fb2f3720d86")
+		)
+		(instances
+			(project ""
+				(path "/3fa1ee2a-4fd2-4656-a08a-79cff3e38c75"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 158.75 91.44 90)
 		(unit 1)
@@ -5185,6 +5356,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C17414 "
+			(at 158.75 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,6 +5440,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C17414 "
+			(at 158.75 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b2559a8-9047-471d-a52f-96400b6c9ce8")
 		)
@@ -5321,6 +5510,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27834"
+			(at 128.27 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,84 +5608,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 222.25 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7310022-c31c-478f-8571-7dd5a820e142")
-		(property "Reference" "K1"
-			(at 222.25 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SANYOU_SRD_Form_C"
-			(at 222.25 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 220.98 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 222.25 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 222.25 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9e2edba7-e14d-4ca5-afd0-2b62d0c79122")
-		)
-		(pin "2"
-			(uuid "901b58d4-dc87-4d4e-8949-befb869d34f7")
-		)
-		(pin "1"
-			(uuid "21cbf61e-ca2b-41fb-8230-e0b483c4b5c2")
-		)
-		(pin "5"
-			(uuid "e200633d-a64a-48e9-af5c-30b2c4473a00")
-		)
-		(pin "3"
-			(uuid "026c4583-8191-4149-abe8-b4add824f0c6")
-		)
-		(instances
-			(project ""
-				(path "/3fa1ee2a-4fd2-4656-a08a-79cff3e38c75"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 170.18 54.61 0)
 		(unit 1)
@@ -5513,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 170.18 49.53 0)
 			(effects
 				(font
@@ -5532,6 +5652,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 170.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -5601,6 +5730,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C17414 "
+			(at 158.75 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee0d5dc7-a0ba-47a1-a8ed-d21fda44846f")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 158.75 76.2 90)
 			(effects
 				(font
@@ -5742,6 +5880,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C17414 "
+			(at 158.75 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90bfa4ba-ecea-4a76-8aca-3ba3af991b70")
 		)
@@ -5751,7 +5898,7 @@
 		(instances
 			(project "garagesp"
 				(path "/3fa1ee2a-4fd2-4656-a08a-79cff3e38c75"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5877,6 +6024,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23380830"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "948ec369-41b9-4fa1-899a-6732e12ea22d")
 		)
@@ -5927,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -5946,6 +6102,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
 			(at 170.18 109.22 0)
 			(effects
 				(font
