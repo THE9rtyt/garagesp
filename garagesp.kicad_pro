@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|54950000|55695000|5ffb6d49-ae01-4794-954c-22c4cabff54e|cb6d500f-6ed4-49bd-a878-d5bfd0da7fdc",
-          ""
-        ],
-        [
-          "hole_clearance|54950000|55695000|cc360963-460c-4659-97bd-eaa55df4a7bf|cb6d500f-6ed4-49bd-a878-d5bfd0da7fdc",
-          ""
-        ],
-        [
-          "hole_clearance|61050000|55695000|53b507e7-afec-4b13-856d-981a70ac6e2c|22fe09e4-fe3c-4f5b-b717-9f47050933cf",
-          ""
-        ],
-        [
-          "hole_clearance|61050000|55695000|8fdb996c-9865-4c8b-a175-2ec419dfe62e|22fe09e4-fe3c-4f5b-b717-9f47050933cf",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -663,7 +646,7 @@
       "version": 1
     },
     "net_format_name": "bom2grouped_csv_jlcpcb",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "garagesp",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
